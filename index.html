@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Management System</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>User Management System</h1>
+    <input type="button" id="addUserButton" value="Add User">  <!--一开始写成了addInput所以不匹配导致错误-->
+    <input type="text" id="searchInput" placeholder="Search for a user by name">
+    <div id="userTable"></div>  <!--userTable里面有一个table，没有数据时有一个p显示Loading-->
+  </body>
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script> 
+</html>
