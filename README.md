@@ -24,6 +24,6 @@ The progress of this project is as follows:
 14. Once you get the table now you can use the data to create the table
 
 ==========================================================================
-The core techniques in this project are node.js and axios js liabrary
+The core techniques in this project are node.js and axios js library
 
 Axios is a popular JavaScript library used for making HTTP requests in Node.js and web applications. It provides a simple and intuitive API for sending HTTP requests and interacting with web servers. Axios is often used as an alternative to the native XMLHttpRequest object or the fetch API.
